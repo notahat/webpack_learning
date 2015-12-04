@@ -1,0 +1,11 @@
+{
+  "name": "webpack_learning",
+  "version": "1.0.0",
+  "description": "Me figuring out how to use webpack, babel, source maps, hot reloading, etc.",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
