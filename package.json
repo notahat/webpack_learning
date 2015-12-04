@@ -4,8 +4,13 @@
   "description": "Me figuring out how to use webpack, babel, source maps, hot reloading, etc.",
   "main": "entry.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
 }
