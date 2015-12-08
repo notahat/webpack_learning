@@ -1,4 +1,7 @@
-document.write("It works.");
-console.log("Really it does.");
+import Immutable from 'immutable'
+import installImmutableDevTools from 'immutable-devtools'
 
-[1,2,3].forEach(v => { console.log(v) })
+document.write("It works.");
+
+installImmutableDevTools(Immutable)
+console.log(Immutable.Map({a:1, b:Immutable.List([2,3,4])}))

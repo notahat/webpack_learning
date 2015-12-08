@@ -13,6 +13,8 @@
     "babel-core": "^6.3.2",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
+    "immutable": "^3.7.5",
+    "immutable-devtools": "0.0.4",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   }
